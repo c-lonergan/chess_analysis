@@ -1,6 +1,5 @@
 CHESSCOM_USERNAME = "charlie_barly"
-
-DAYS_BACK = 3
+MONTHS_BACK = 3
 
 STOCKFISH_PATH = "/path/to/stockfish"
 STOCKFISH_DEPTH = 12
