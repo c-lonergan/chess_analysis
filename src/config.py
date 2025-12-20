@@ -6,5 +6,6 @@ STOCKFISH_DEPTH = 12
 
 APP_NAME = "ChessAnalytics"
 SPARK_MASTER = "local[*]"
+N_PARTITIONS = 4
 DATA_DIR = "data"
 LOG_DIR = "logs"
