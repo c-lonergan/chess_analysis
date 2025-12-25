@@ -33,13 +33,13 @@ pgn
 time_control ("600")
 end_time (int)
 rated (true)
-tcn ?
+tcn ("tiny chess notation" - more efficient)
 uuid 
 initial_setup ?
-fen ?
+fen ("Forsyth-Edwards Notation" - seems to be end position)
 time_class ("rapid")
 rules ("chess") ?
-eco ? ("https://www.chess.com/openings/Alapin-Sicilian-Defense...3.d4-cxd4-4.cxd4-d5-5.e5")	
+eco ? ("Encyclopaedia of Chess Openings" - classification)	
 white/black
 	rating (int)
 	result ("resigned")
