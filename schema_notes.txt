@@ -1,0 +1,67 @@
+Example json
+https://stackoverflow.com/questions/74361544/how-to-create-a-spark-dataframe-from-nested-json-structure
+===============
+-results:
+--metadata
+	---uri
+	---type
+--accountant
+--account_manager
+--...
+
+My json
+===============
+-games:
+--url
+--pgn
+--...
+--white
+	---rating
+	---result
+	---...
+--black
+	---rating
+	---result
+	---...
+--...
+
+Schema
+===============
+
+url
+pgn
+time_control ("600")
+end_time (int)
+rated (true)
+tcn ?
+uuid 
+initial_setup ?
+fen ?
+time_class ("rapid")
+rules ("chess") ?
+eco ? ("https://www.chess.com/openings/Alapin-Sicilian-Defense...3.d4-cxd4-4.cxd4-d5-5.e5")	
+white/black
+	rating (int)
+	result ("resigned")
+	@id (player api profile)
+	username
+	uuid (presumably player uuid)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
